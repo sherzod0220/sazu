@@ -32,13 +32,16 @@ nav span img {
 }
 main {
   width: 100%;
+  background-image: url(../images/Fon.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 40px 140px;
 }
 main .main-title {
   height: 10px;
   width: 300px;
-  border-bottom: 1px solid gray;
-  border-left: 1px solid gray;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
   position: relative;
 }
 main .main-title h5 {
@@ -46,17 +49,17 @@ main .main-title h5 {
   position: absolute;
   left: 5px;
   bottom: 0px;
-  color: #422680;
+  color: white;
 }
 main .hero {
   min-height: 750px;
   width: 100%;
-  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 main .hero .sazu {
+  box-shadow: 4px 0 20px white;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -65,9 +68,17 @@ main .hero .sazu {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: suzu;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 main .hero .sazu img {
   width: 70%;
+  animation-name: two;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 main .hero .sazu .sazu-item1 {
   position: absolute;
@@ -230,6 +241,16 @@ main .hero .sazu .sazu-item4 .sazu-item__icon__box .sazu-item__icon i {
   color: white;
 }
 
+@keyframes sazu {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes two {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media (max-width: 1800px) {
   main {
     padding: 40px 100px;
@@ -311,6 +332,7 @@ main .hero .sazu .sazu-item4 .sazu-item__icon__box .sazu-item__icon i {
 @media (max-width: 1100px) {
   main {
     padding: 40px 50px;
+    height: 940px;
   }
   main .hero {
     min-height: 500px;
@@ -743,6 +765,7 @@ main .hero .sazu .sazu-item4 .sazu-item__icon__box .sazu-item__icon i {
 @media (max-width: 600px) {
   main {
     padding: 40px 0px;
+    height: 1000px;
   }
   main .main-title {
     margin-left: 30px;
