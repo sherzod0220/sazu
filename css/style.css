@@ -740,7 +740,7 @@ main .hero .sazu .sazu-item4 .sazu-item__icon__box .sazu-item__icon i {
     color: #422680;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   main {
     padding: 40px 0px;
   }
