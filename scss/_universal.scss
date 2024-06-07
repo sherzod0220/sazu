@@ -199,7 +199,7 @@ main {
         bottom: -100px;
         .sazu-item__info {
           padding: 10px 0 0 35px;
-        // justify-content: center;
+          // justify-content: center;
           display: flex;
           flex-direction: column;
           gap: 5px;
@@ -291,7 +291,7 @@ main {
         .sazu-item1 {
           width: 350px;
           left: -350px;
-          .sazu-item__info{
+          .sazu-item__info {
             padding-right: 30px;
           }
         }
@@ -300,8 +300,8 @@ main {
           right: -370px;
           .sazu-item__info {
             padding-left: 46px;
-            h2{
-                font-size: 20px;
+            h2 {
+              font-size: 20px;
             }
           }
         }
@@ -565,6 +565,212 @@ main {
         width: 150px;
         height: 150px;
         .sazu-item1 {
+          width: 480px;
+          left: -180px;
+          height: 100px;
+          top: 200px;
+          border-radius: 30px;
+          border: 5px solid #422680;
+          box-shadow: 2px 2px 10px #422680;
+          padding-right: 50px;
+          background-color: white;
+          gap: 0;
+          .sazu-item__info {
+            justify-content: center;
+            gap: 0px;
+            padding-right: 0;
+            position: relative;
+            padding-top: 16px;
+            h2 {
+              position: absolute;
+              top: -13px;
+              right: -70px;
+              border-radius: 20px 0 0 20px;
+              background-color: #422680;
+              color: white;
+              padding: 8px 80px 8px 30px;
+              font-size: 16px;
+            }
+          }
+          .sazu-item__icon__box {
+            height: 100px;
+            width: 0;
+            .sazu-item__icon {
+              height: 90px;
+              width: 90px;
+              border: 5px solid #422680;
+              box-shadow: 2px 2px 20px #422680;
+              border-radius: 50%;
+              background-color: white;
+              top: -35px;
+              left: 4px;
+
+              i {
+                font-size: 30px;
+                color: #422680;
+              }
+            }
+          }
+        }
+        .sazu-item2 {
+          width: 480px;
+          right: -180px;
+          height: 100px;
+          top: 360px;
+          border-radius: 30px;
+          border: 5px solid #422680;
+          box-shadow: 2px 2px 10px #422680;
+          padding-left: 50px;
+          background-color: white;
+          .sazu-item__info {
+            justify-content: center;
+            gap: 0px;
+            padding-top: 20px;
+            position: relative;
+            h2 {
+              position: absolute;
+              top: -13px;
+              left: -40px;
+              border-radius: 0 20px 20px 0;
+              background-color: #422680;
+              color: white;
+              padding: 8px 30px 8px 50px;
+              font-size: 16px;
+            }
+          }
+          .sazu-item__icon__box {
+            height: 100px;
+            width: 0;
+            .sazu-item__icon {
+              z-index: 990;
+              height: 90px;
+              width: 90px;
+              border: 5px solid #422680;
+              box-shadow: 2px 2px 20px #422680;
+              border-radius: 50%;
+              background-color: white;
+              top: -35px;
+              left: -90px;
+              i {
+                font-size: 40px;
+                color: #422680;
+              }
+            }
+          }
+        }
+        .sazu-item3 {
+          width: 480px;
+          left: -180px;
+          height: 100px;
+          top: 520px;
+          border-radius: 30px;
+          border: 5px solid #422680;
+          box-shadow: 2px 2px 10px #422680;
+          padding-right: 50px;
+          background-color: white;
+          gap: 0;
+          .sazu-item__info {
+            justify-content: center;
+            gap: 0px;
+            padding-right: 0;
+            position: relative;
+            h2 {
+              position: absolute;
+              top: -13px;
+              right: -70px;
+              border-radius: 20px 0 0 20px;
+              background-color: #422680;
+              color: white;
+              padding: 8px 80px 8px 30px;
+              font-size: 16px;
+            }
+          }
+          .sazu-item__icon__box {
+            height: 100px;
+            width: 0px;
+            .sazu-item__icon {
+              height: 90px;
+              width: 90px;
+              border: 5px solid #422680;
+              box-shadow: 2px 2px 20px #422680;
+              border-radius: 50%;
+              background-color: white;
+              top: -35px;
+              left: 5px;
+
+              i {
+                font-size: 30px;
+                color: #422680;
+              }
+            }
+          }
+        }
+        .sazu-item4 {
+          width: 480px;
+          left: -150px;
+          height: 100px;
+          top: 690px;
+          border-radius: 30px;
+          border: 5px solid #422680;
+          box-shadow: 2px 2px 10px #422680;
+          padding-left: 50px;
+          background-color: white;
+          .sazu-item__info {
+            justify-content: center;
+            gap: 0px;
+            padding: 0;
+            padding-top: 13px;
+            position: relative;
+            h2 {
+              position: absolute;
+              top: -13px;
+              left: -50px;
+              border-radius: 0 20px 20px 0;
+              background-color: #422680;
+              color: white;
+              padding: 8px 30px 8px 60px;
+              font-size: 16px;
+            }
+          }
+          .sazu-item__icon__box {
+            height: 100px;
+            width: 0;
+            .sazu-item__icon {
+              z-index: 990;
+              height: 90px;
+              width: 90px;
+              border: 5px solid #422680;
+              box-shadow: 2px 2px 20px #422680;
+              border-radius: 50%;
+              background-color: white;
+              top: -35px;
+              left: -100px;
+              i {
+                font-size: 40px;
+                color: #422680;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  main {
+    padding: 40px 0px;
+    .main-title {
+      margin-left: 30px;
+    }
+    .hero {
+      min-height: 500px;
+      align-items: start;
+      padding-top: 30px;
+      justify-content: center;
+      .sazu {
+        width: 150px;
+        height: 150px;
+        .sazu-item1 {
           width: 360px;
           left: -135px;
           top: 200px;
@@ -707,7 +913,9 @@ main {
         }
         .sazu-item4 {
           width: 360px;
-          right: -125px;
+        //   right: -145px;
+        // margin: 0 auto;
+        margin-left: 55px;
           top: 760px;
           border-radius: 30px;
           border: 5px solid #422680;
@@ -782,15 +990,15 @@ main {
           background-color: white;
           gap: 0;
           transition: 0.6s;
-          &:hover{
+          &:hover {
             height: 180px;
             z-index: 998;
-            .sazu-item__info{
-                p{
-                    span{
-                        display: block;
-                    }
+            .sazu-item__info {
+              p {
+                span {
+                  display: block;
                 }
+              }
             }
           }
           .sazu-item__info {
@@ -809,10 +1017,10 @@ main {
               padding: 8px 60px 8px 30px;
               font-size: 14px;
             }
-            p{
-                span{
-                    display: none;
-                }
+            p {
+              span {
+                display: none;
+              }
             }
           }
           .sazu-item__icon__box {
@@ -846,15 +1054,15 @@ main {
           background-color: white;
           gap: 0;
           transition: 0.6s;
-          &:hover{
+          &:hover {
             height: 180px;
             z-index: 998;
-            .sazu-item__info{
-                p{
-                    span{
-                        display: block;
-                    }
+            .sazu-item__info {
+              p {
+                span {
+                  display: block;
                 }
+              }
             }
           }
           .sazu-item__info {
@@ -871,10 +1079,10 @@ main {
               padding: 8px 60px 8px 30px;
               font-size: 14px;
             }
-            p{
-                span{
-                    display: none;
-                }
+            p {
+              span {
+                display: none;
+              }
             }
           }
           .sazu-item__icon__box {
@@ -909,15 +1117,15 @@ main {
           height: 80px;
           background-color: white;
           transition: 0.6s;
-          &:hover{
+          &:hover {
             height: 180px;
             z-index: 998;
-            .sazu-item__info{
-                p{
-                    span{
-                        display: block;
-                    }
+            .sazu-item__info {
+              p {
+                span {
+                  display: block;
                 }
+              }
             }
           }
           .sazu-item__info {
@@ -936,10 +1144,10 @@ main {
               padding: 8px 20px 8px 30px;
               font-size: 14px;
             }
-            p{
-                span{
-                    display: none;
-                }
+            p {
+              span {
+                display: none;
+              }
             }
           }
           .sazu-item__icon__box {
@@ -971,15 +1179,15 @@ main {
           padding-left: 50px;
           height: 65px;
           transition: 0.6s;
-          &:hover{
+          &:hover {
             height: 180px;
             z-index: 998;
-            .sazu-item__info{
-                p{
-                    span{
-                        display: block;
-                    }
+            .sazu-item__info {
+              p {
+                span {
+                  display: block;
                 }
+              }
             }
           }
           .sazu-item__info {
@@ -997,10 +1205,10 @@ main {
               padding: 8px 20px 8px 30px;
               font-size: 14px;
             }
-            p{
-                span{
-                    display: none;
-                }
+            p {
+              span {
+                display: none;
+              }
             }
           }
           .sazu-item__icon__box {
